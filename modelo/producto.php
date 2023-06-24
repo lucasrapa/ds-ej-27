@@ -13,7 +13,7 @@ class producto {
         echo 'Precio ' . $this->Precio . '<br>';
         echo 'Marca ' . $this->Marca . '<br>';
         echo 'proveedores: <br>';
-        foreach($p as $this->ListaProveedores){
+        foreach($this->ListaProveedores as $p){
             echo $p->Nombre . $p->CUIL . $p->direccion . $telefono . '<br>';
         }
     }
