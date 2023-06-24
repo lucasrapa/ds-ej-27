@@ -1,6 +1,6 @@
 <?php
-require_once 'modelo/producto';
-require_once 'modelo/proveedores';
+require_once 'modelo/producto.php';
+require_once 'modelo/proveedores.php';
 
 $r = new producto();
 $r->Id = 1;
